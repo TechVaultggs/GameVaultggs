@@ -1,0 +1,442 @@
+/* Reset and base styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+/* Header Section */
+.header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  gap: 30px;
+}
+
+.icon-container {
+  background: linear-gradient(135deg, #ff8c00, #ffa500);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+.icon-container2 {
+  background: linear-gradient(135deg, #ab7fd8, #ab7fd8);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+.icon-container3 {
+  background: linear-gradient(135deg, #9fc9ff, #9fc9ff);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+.icon-container4 {
+  background: linear-gradient(135deg, #f9d14d, #f9d14d);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+.icon-container5 {
+  background: linear-gradient(135deg, #fb4b42, #fb4b42);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+.icon-container6 {
+  background: linear-gradient(135deg, #97ee7a, #97ee7a);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 140px;
+  min-height: 140px;
+}
+
+
+.character-icon {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  filter: brightness(1.2);
+}
+
+.title-section {
+  flex: 1;
+}
+
+.guide-label {
+  font-size: 14px;
+  color: #cccccc;
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.main-title {
+  font-size: 48px;
+  font-weight: bold;
+  color: #ffffff;
+  margin: 0;
+  letter-spacing: -1px;
+}
+
+/* Description Section */
+.description {
+  margin-bottom: 40px;
+}
+
+.description p {
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 1.7;
+  max-width: 700px;
+}
+
+/* Main Image Section */
+.main-image-container {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.main-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin: 15px 0;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  display: block;
+}
+
+.main-image2 {
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+  margin: 15px auto;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  display: block;
+
+}
+
+
+.image-caption {
+  text-decoration: none;  /* quitar subrayado */
+  outline: none;          /* quitar borde azul al hacer click */
+  font-size: 14px;
+  color: #888888;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+/* Section Styles */
+.section {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-text {
+  font-size: 16px;
+  color: #cccccc;
+  line-height: 1.7;
+  margin-bottom: 16px;
+  max-width: 700px;
+}
+
+.section-list  {
+  font-size: 16px;
+  color: #cccccc;
+  margin-left: 50px; /* Ajusta este valor para mover más o menos la lista */
+  list-style-type: disc; /* viñetas normales */
+}
+
+.section-list2  {
+  font-size: 16px;
+  color: #cccccc;
+  margin-left: 50px; /* Ajusta este valor para mover más o menos la lista */
+  list-style-type: disc; 
+  list-style-type: none;
+}
+
+
+/* Bottom Image Section */
+.bottom-image-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.bottom-image {
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 15px 0; /* opcional para espacio arriba y abajo */
+}
+
+.bottom-image2 {
+  width: 50%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 15px auto;  /* opcional para espacio arriba y abajo */
+}
+
+.bottom-image3 {
+  width: 70%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  display: block;
+  margin: 15px auto;  /* opcional para espacio arriba y abajo */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .header {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
+  }
+
+  .icon-container {
+    min-width: 120px;
+    min-height: 120px;
+  }
+
+  .character-icon {
+    width: 80px;
+    height: 80px;
+  }
+
+  .main-title {
+    font-size: 36px;
+  }
+
+  .container {
+    padding: 20px 15px;
+  }
+
+  .section-title {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .main-title {
+    font-size: 28px;
+  }
+
+  .section-title {
+    font-size: 20px;
+  }
+
+  .description p,
+  .section-text {
+    font-size: 14px;
+  }
+}
+
+.image-row {
+  display: flex;
+  justify-content: center;   /* centra el grupo */
+  gap: 20px;                 /* espacio horizontal entre imágenes */
+  margin: 20px 0;            /* margen arriba/abajo */
+}
+
+.img-pair {
+  width: 45%;                /* ajusta el tamaño de cada imagen */
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 768px) {
+  .image-row {
+    flex-direction: column;  /* apila las imágenes en vertical */
+    align-items: center;     /* centra las imágenes */
+  }
+
+  .img-pair {
+    width: 80%;              /* se hacen más grandes en móvil */
+    margin-bottom: 15px;     /* espacio entre ellas */
+  }
+}
+
+
+.emoji-list {
+  list-style: none;
+  font-size: 16px;
+  color: #cccccc;
+  padding-left: 0;
+}
+
+.emoji-list li {
+  position: relative;
+  padding-left: 1.8em; /* espacio para el emoji */
+  margin-bottom: 0.5em;
+}
+
+.emoji-list li::before {
+  content: "🔶";
+  position: absolute;
+  left: 0;
+  top: 0.1em; /* Ajusta verticalmente según el diseño */
+  line-height: 1;
+}
+
+
+.warning-box {
+  background-color: #161b22; /* fondo del cuadro */
+  border-left: 4px solid #f0ad4e; /* línea lateral de advertencia */
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.warning-icon {
+  font-weight: bold;
+  color: #f0ad4e; /* color del icono de advertencia */
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.warning-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.emoji-aligned-box {
+  padding-left: 1.8em; /* igual que .emoji-list li */
+  margin-bottom: 1em; /* espacio opcional debajo */
+}
+
+.emoji-list2 {
+  list-style: none;
+  font-size: 16px;
+  color: #cccccc;
+  padding-left: 0;
+}
+
+.emoji-list2 li {
+  position: relative;
+  padding-left: 1.8em; /* espacio para el emoji */
+  margin-bottom: 0.5em;
+}
+
+.emoji-list2 li::before {
+  content: "🔷";
+  position: absolute;
+  left: 0;
+  top: 0.1em; /* Ajusta verticalmente según el diseño */
+  line-height: 1;
+}
+
+
+.warning-box2 {
+  background-color: #161b22; /* fondo del cuadro */
+  border-left: 4px solid #3f87dc; /* línea lateral de advertencia */
+  padding: 16px;
+  border-radius: 8px;
+  display: flex;
+  align-items: flex-start;
+  max-width: 600px;
+}
+
+.warning-icon2 {
+  font-weight: bold;
+  color: #3f87dc; /* color del icono de advertencia */
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.warning-text {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+
+
+
+.emoji-list3 {
+  list-style: none;
+  font-size: 16px;
+  color: #cccccc;
+  padding-left: 0;
+}
+
+.emoji-list3 li {
+  position: relative;
+  padding-left: 1.8em; /* espacio para el emoji */
+  margin-bottom: 0.5em;
+}
+
+.emoji-list3 li::before {
+  content: " ";
+  position: absolute;
+  left: 0;
+  top: 0.1em; /* Ajusta verticalmente según el diseño */
+  line-height: 1;
+}
+
+
+.image-captionlink {
+  text-decoration: none;  /* quitar subrayado */
+  outline: none;          /* quitar borde azul al hacer click */
+  font-size: 14px;
+  color: #ffffff;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+
+
