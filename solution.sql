@@ -16,7 +16,7 @@ ORDER BY pais ASC, nombre ASC;
 SELECT *
 FROM Persona
 WHERE categoria = 'Auxiliar' -- Reemplace 'Auxiliar' con la categoría que desea filtrar
-  AND agencia = 'AgenciaX'; -- Reemplace 'AgenciaX' con la agencia que desea filtrar
+  AND agencia = 'UNC'; -- Reemplace 'UNC' con la agencia que desea filtrar
 
 -- d) Mostrar salario promedio de empleados agrupados por ciudad y ordenado por
 -- Nombres.
